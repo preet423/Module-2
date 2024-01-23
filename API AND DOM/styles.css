@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    background: lightblue;
+  
+  
+    
+  }
+
+  #toparea,#usernameForm
+  {
+     flex-direction: column; 
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 8px;
+
+  }
+  h1 { 
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    text-align: center;
+    text-decoration: underline;
+  }
+  #toparea
+  {
+    border: 2px solid white;
+  }
+  a {
+    text-decoration: none; 
+    font-weight: bold; 
+    color: brown;
+    background-color: antiquewhite;
+
+}
+a:hover {
+    text-decoration: underline; 
+    color: blue
+
+}
+  #username
+  {
+    height: 40px;
+    background-color: grey;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+  }
+  #area
+  {
+     flex-direction: row; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+
+}
+  .btn
+  {
+    margin-left: 5px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    background-color: blue;
+   
+  }
+  #followers,#following,#Repositories {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 30px; 
+    color: brown; 
+    background-color: beige;
+    font-weight: bold; 
+    text-align: center; 
+    border: 2px solid black;
+}
